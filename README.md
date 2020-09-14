@@ -1,4 +1,4 @@
-# Capstone2
+# Masks of Twitter
 
 Many theorize that one of the reasons America is struggling with Covid-19 is due to an active anti-science movement. It is difficult to quantify the impact this movement has had on American health, but with NLP we can at least get a better understanding of its ideas. And where better to find an exhaustive supply of extreme views than Twitter? This project demonstrates EDA of pro and anti-mask tweets using Python, KMeans clustering, PCA, and Bayesian Classification.
 
@@ -24,3 +24,6 @@ Each stance was divided into four topics using KMeans clustering.
 Naive Bayes Classifiers were used to predict if a given tween was pro or anti-mask. It acheived 86% accuracy over a baseline of 66%.
 
 ![Word_clouds](https://raw.githubusercontent.com/brendanquinn612/Masks_of_Twitter/master/imd/clouds.png)
+
+
+If ipynb is not rendering, open it here:  https://nbviewer.jupyter.org/
