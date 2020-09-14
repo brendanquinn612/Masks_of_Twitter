@@ -9,18 +9,18 @@ Over 14,000 tweets were scraped that date from 3/1/2020 to 8/21/2020. Each tweet
 These tweets are included in the tweets_primary directory. The directory also includes a timeline that compares tweets about mask-wearing to US daily Covid-19 cases. 
 
 
-![Timeline](https://raw.githubusercontent.com/brendanquinn612/Capstone2/master/timeline.png)
+![Timeline](https://raw.githubusercontent.com/brendanquinn612/Masks_of_Twitter/master/imd/timeline.png)
 
 ## Topic Labeling
 
 Each stance was divided into four topics using KMeans clustering. 
 
-![pos_cluster](https://raw.githubusercontent.com/brendanquinn612/Capstone2/master/c.png)
+![pos_cluster](https://raw.githubusercontent.com/brendanquinn612/Masks_of_Twitter/master/imd/c.png)
 
-![neg_cluster](https://raw.githubusercontent.com/brendanquinn612/Capstone2/master/c2.png)
+![neg_cluster](https://raw.githubusercontent.com/brendanquinn612/Masks_of_Twitter/master/imd/c2.png)
 
 ## Tweet Prediction
 
 Naive Bayes Classifiers were used to predict if a given tween was pro or anti-mask. It acheived 86% accuracy over a baseline of 66%.
 
-![Word_clouds](https://raw.githubusercontent.com/brendanquinn612/Masks-on-Twitter/master/clouds.png)
+![Word_clouds](https://raw.githubusercontent.com/brendanquinn612/Masks_of_Twitter/master/imd/clouds.png)
